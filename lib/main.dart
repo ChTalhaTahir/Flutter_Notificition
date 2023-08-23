@@ -37,7 +37,11 @@ class _HomePageState extends State<HomePage> {
 
   void _showNotifications() async {
     await notificationService.showNotification(
-      title: 'Hello, Talha',
+
+
+
+      title: 'Hello, Ameer Hamza!',
+
       body: 'This is a notification with an image.',
       imageUrl: 'https://via.placeholder.com/300.png',
     );
